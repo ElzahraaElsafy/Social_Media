@@ -1,0 +1,35 @@
+{
+  "name": "Social App",
+  "version": "",
+  "description": "",
+  "type": "commonjs",
+  "main": "src/main.ts",
+  "scripts": {
+    "start:dev": "concurrently \"tsc --watch\" \"node --watch  dist/main.js\""
+  },
+  "keywords": [],
+  "authors": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/bcrypt": "^6.0.0",
+    "@types/dotenv": "^6.1.1",
+    "@types/event-emitter": "^0.3.5",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/mongoose": "^5.11.96",
+    "@types/nodemailer": "^8.0.2",
+    "bcrypt": "^6.0.0",
+    "concurrently": "^10.0.5",
+    "dotenv": "^18.0.3",
+    "event": "^1.0.0",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.10.1",
+    "nodemailer": "^10.0.11",
+    "redis": "^6.2.1",
+    "zod": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.5.0"
+  }
+}

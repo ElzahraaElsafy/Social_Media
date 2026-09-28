@@ -1,0 +1,1 @@
+import {default as userRouter} from "./user.controller";
